@@ -299,6 +299,7 @@ Resources:
                   - logs:CreateLogGroup
                   - logs:CreateLogStream
                   - logs:PutLogEvents
+                  - logs:TagResource
                 Resource: "*"
         - PolicyName: IAMAccess
           PolicyDocument:
@@ -371,6 +372,7 @@ Resources:
                   - lambda:GetFunction
                   - lambda:CreateFunction
                   - lambda:GetFunctionConfiguration
+                  - lambda:TagResource
                 Resource: "*"
         - PolicyName: S3Access
           PolicyDocument:
