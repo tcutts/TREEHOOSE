@@ -48,6 +48,7 @@ rootUserLastName: <replace this with TRE project IT admin's last name>
 rootUserEmail: <replace this with valid TRE project IT admin email address>
 enableEgressStore: true
 isAppStreamEnabled: true
+domainName: ''
 ```
 
 - [ ] Remove:
