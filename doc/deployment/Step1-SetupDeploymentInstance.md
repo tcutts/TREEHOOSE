@@ -43,9 +43,9 @@ wget https://github.com/HicResearch/TREEHOOSE/archive/refs/tags/v0.0.1-alpha.tar
 tar --strip-components=1 -xzf TREEHOOSE-0.0.1-alpha.tar.gz -C TREEHOOSE
 ```
 
-> Note: The installation process requires 3rd party
+> Note: The process above causes 3rd party
 open-source libraries to be installed on the
-EC2 instance that does not come bundled by default
+EC2 instance that do not come bundled by default
 with the Operating System. \
 The list is as below \
 >
